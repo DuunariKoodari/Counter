@@ -1,0 +1,54 @@
+body {
+  max-width: 100vh;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: purple;
+}
+
+div {
+  width: 50vh;
+  height: 70vh;
+  border: solid 1px white;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 4px 4px 30px 2px;
+}
+
+.header {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#counter {
+  font-size: 10em;
+  margin: 0.1em;
+}
+.counterBtn {
+  cursor: pointer;
+  width: 10em;
+  height: 3em;
+  margin: 1em;
+  border-radius: 10px;
+  border: none;
+  background: rgb(36, 1, 77);
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.decrease:hover {
+  width: 8.5em;
+  height: 2.5em;
+  background: red;
+}
+.increase:hover {
+  width: 14em;
+  height: 4em;
+  background: green;
+}
